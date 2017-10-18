@@ -1,0 +1,42 @@
+{
+  "client": {
+    "id": 1,
+    "clientId": "my_app",
+    "clientSecret": "my_secret",
+    "redirectUris": [
+      "http://implements.io"
+    ],
+    "refreshTokenLifetime": 0,
+    "accessTokenLifetime": 0,
+    "grants": [
+      "password"
+    ]
+  },
+  "user": {
+    "id": 1,
+    "username": "test",
+    "password": "123456"
+  },
+  "token": {
+    "accessToken": "78a2e783b59cf1f145ccbb0d0b63900db02422ee",
+    "accessTokenExpiresAt": "2017-10-18T07:46:21.428Z",
+    "refreshToken": "c768d0d34ffe7828fa559b3add8fe82183d9ff3c",
+    "refreshTokenExpiresAt": "2017-11-01T06:46:21.428Z",
+    "user": {
+      "userId": 1
+    },
+    "client": {
+      "id": 1,
+      "clientId": "my_app",
+      "clientSecret": "my_secret",
+      "redirectUris": [
+        "http://implements.io"
+      ],
+      "refreshTokenLifetime": 0,
+      "accessTokenLifetime": 0,
+      "grants": [
+        "password"
+      ]
+    }
+  }
+}
