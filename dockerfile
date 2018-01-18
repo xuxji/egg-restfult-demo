@@ -2,9 +2,17 @@ FROM node
 
 MAINTAINER Jerry <xuxji.123@163.com>
 
-WORKDIR /var/jenkins_node/workspace/tedit_node
+RUN mkdir -p /home/projects/tedit_node
+
+WORKDIR /home/projects/tedit_node
+
+# add npm package
+COPY package.json /usr/src/app/package.json
 
 RUN npm i --registry=https://registry.npm.taobao.org
+
+# copy code
+COPY . /home/projects/tedit_node
 
 EXPOSE 7001
 
