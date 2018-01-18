@@ -2,7 +2,7 @@ FROM node
 
 MAINTAINER Jerry <xuxji.123@163.com>
 
-WORKDIR /home/products/tedit_node
+WORKDIR /var/jenkins_node/workspace/tedit_node
 
 RUN npm i --registry=https://registry.npm.taobao.org
 
