@@ -7,7 +7,7 @@ RUN mkdir -p /home/projects/tedit_node
 WORKDIR /home/projects/tedit_node
 
 # add npm package
-COPY package.json /usr/src/app/package.json
+COPY package.json /home/projects/tedit_node/package.json
 
 RUN npm i --registry=https://registry.npm.taobao.org
 
